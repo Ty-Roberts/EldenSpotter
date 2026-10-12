@@ -1,0 +1,6 @@
+*.exe
+*.pdb
+artifacts/
+src/preview*.png
+src/*test-results.txt
+.vs/

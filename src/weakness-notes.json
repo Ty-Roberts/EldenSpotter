@@ -1,0 +1,47 @@
+[
+  {
+    "match": "Erdtree Avatar",
+    "text": "Fire is effective against ordinary Erdtree Avatars.",
+    "source": "https://eldenring.wiki.gg/wiki/Erdtree_Avatar"
+  },
+  {
+    "match": "Royal Revenant",
+    "text": "Nearby area-healing incantations such as Heal damage and stun Royal Revenants.",
+    "source": "https://eldenring.wiki.gg/wiki/Royal_Revenant"
+  },
+  {
+    "match": "Crystalian",
+    "text": "Use Strike damage to break the armored shell. After a stance break, the shell loses its protection.",
+    "source": "https://eldenring.wiki.gg/wiki/Crystalian"
+  },
+  {
+    "match": "Godskin Apostle",
+    "text": "Sleep is effective: it can disable the Apostle for an extended opening.",
+    "source": "https://eldenring.wiki.gg/wiki/Dolores_the_Sleeping_Arrow"
+  },
+  {
+    "match": "Godskin Noble",
+    "text": "Sleep is effective: it can disable the Noble for an extended opening.",
+    "source": "https://eldenring.wiki.gg/wiki/Dolores_the_Sleeping_Arrow"
+  },
+  {
+    "match": "Death Rite Bird",
+    "text": "Weak to Holy damage and anti-undead attacks. Head hits deal extra damage.",
+    "source": "https://eldenring.wiki.gg/wiki/Death_Rite_Bird"
+  },
+  {
+    "match": "Deathbird",
+    "text": "Holy and anti-undead attacks are effective.",
+    "source": "https://eldenring.wiki.gg/wiki/Those_Who_Live_in_Death"
+  },
+  {
+    "match": "Miner",
+    "text": "Strike attacks are effective against the stony skin; slashing attacks are resisted.",
+    "source": "https://eldenring.wiki.gg/wiki/Glintstone_Miner"
+  },
+  {
+    "match": "Miranda",
+    "text": "Fire attacks can repeatedly stun Miranda Sprouts and Blossoms.",
+    "source": "https://eldenring.wiki.gg/wiki/Fire%27s_Deadly_Sin"
+  }
+]
