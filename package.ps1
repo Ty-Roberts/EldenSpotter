@@ -14,6 +14,8 @@ foreach ($taskName in @('build.ps1', 'package.ps1', 'README.md', 'LICENSE', 'THI
   Copy-Item -LiteralPath (Join-Path $PSScriptRoot $taskName) -Destination $taskSource -Force
 }
 Get-ChildItem -LiteralPath (Join-Path $PSScriptRoot 'src') -File | Where-Object { $_.Extension -in @('.cs', '.json') } | Copy-Item -Destination (Join-Path $taskSource 'src') -Force
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'docs') -Destination $taskBundle -Recurse -Force
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'docs') -Destination $taskSource -Recurse -Force
 $taskZip = Join-Path $taskArtifacts ("EldenSpotter-$taskVersion-windows-x64.zip")
 Compress-Archive -Path "$taskBundle/*" -DestinationPath $taskZip -Force
 $taskHash = (Get-FileHash -LiteralPath $taskZip -Algorithm SHA256).Hash.ToLowerInvariant()

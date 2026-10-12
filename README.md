@@ -2,6 +2,8 @@
 
 A portable Windows x64 enemy HUD for Elden Ring. Shows the locked enemy’s health, stance-break progress, active status buildup, base damage negation, and status susceptibility. It hides when unlocked and uses a tray menu with separate settings.
 
+![EldenSpotter displaying health, stance, damage negation, and status susceptibility for a Godrick Soldier in Elden Ring](docs/images/elden-spotter-in-game.png)
+
 ## Run
 
 Extract the entire release ZIP into one folder and launch **EldenSpotter.exe**. Keep `enemy-names.json` beside it. Windows .NET Framework 4.x is required; Windows 10/11 generally includes it. Borderless/windowed game mode works best.
@@ -32,4 +34,4 @@ The reader supports explicitly listed modern executable file versions through 2.
 
 ## License
 
-AGPL-3.0; see [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md). This unofficial fan tool is not affiliated with FromSoftware or Bandai Namco. No official game images or binary game data are bundled.
+AGPL-3.0; see [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md). This unofficial fan tool is not affiliated with FromSoftware or Bandai Namco. No extracted game assets or binary game data are bundled. The screenshot above shows the HUD during gameplay.
